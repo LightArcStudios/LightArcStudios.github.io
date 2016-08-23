@@ -1,6 +1,6 @@
 ---
-layout: project
-title: All Projects
-excerpt: "A List of Projects"
+layout: page
+title: Castle Battles
+date: 2016-08-22
 comments: false
 ---
