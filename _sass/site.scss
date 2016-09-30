@@ -75,9 +75,10 @@ body {
 	padding-right: 15px;
 	padding-left: 15px;
 	@include center-block();
-	background-color: $white;
+	background-color: rgba(255,255,255,.55);
 	color: $color_shark;
 	z-index: 1;
+  border: 3px solid $color_tundora;
 	border-radius: 3px;
 	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
 	@include transition(.5s);
