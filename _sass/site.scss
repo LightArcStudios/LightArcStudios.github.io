@@ -104,9 +104,10 @@ body {
 	width: 75%;
 	max-width: 850px;
 	margin: 4rem auto;
-	background: $white;
+	background: rgba(255,255,255,.55);
 	color: $color_tuatara;
 	padding: 2em;
+  border: 3px solid $color_tundora;
 	border-radius: 3px;
 	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
 	@include transition(.5s);
