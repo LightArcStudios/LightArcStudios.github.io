@@ -39,7 +39,7 @@ sass:
 #bing-verify:
 #email:
 twitter:            LightArcStudio
-facebook:           #hardcoded
+facebook:           hardcoded
 #github:            username
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
@@ -49,7 +49,7 @@ facebook:           #hardcoded
 #tumblr:            username
 #pinterest:         username
 #foursquare:        username
-steam:              #hardcoded
+steam:              hardcoded
 #dribbble:          username
 #youtube:           username
 #soundcloud:        username
