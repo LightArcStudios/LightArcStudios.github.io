@@ -4,7 +4,7 @@ bio:                'A band of indie developers, artists, and musicians making g
 description:        "A band of indie developers, artists, and musicians making games."
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo.png'
+logo:               'assets/img/logo.jpg'
 background:         'assets/img/web-bg.jpg'
 tiled_bg:           true   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
@@ -39,7 +39,7 @@ sass:
 #bing-verify:
 #email:
 twitter:            LightArcStudio
-facebook:           hardcoded
+facebook:           #hardcoded
 #github:            username
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
@@ -49,7 +49,7 @@ facebook:           hardcoded
 #tumblr:            username
 #pinterest:         username
 #foursquare:        username
-steam:              hardcoded
+steam:              #hardcoded
 #dribbble:          username
 #youtube:           username
 #soundcloud:        username
