@@ -15,10 +15,8 @@ comments: false
 
 ![Character splay]({{ site.url }}/assets/img/character-splay.jpg)  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enjoy the melding of medieval melodies to the pulse of electronica in the Original Soundtrack by **[Ex-Static](https://soundcloud.com/exstaticband)**.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enjoy the melding of medieval melodies to the pulse of electronica in the Original Soundtrack by **[Ex-Static](https://xstatic.bandcamp.com/album/the-original-castle-battles-soundtrack)**.  
 
 ![album art]({{ site.url }}/assets/img/album-cover.jpg)  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We are set to release at the end of October, so check out our page on [Steam](http://steamcommunity.com/sharedfiles/filedetails/?id=551593171) for more info and updates.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;May your moustache guide you to victory. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[May your moustache guide you to victory](http://store.steampowered.com/app/568370/).
