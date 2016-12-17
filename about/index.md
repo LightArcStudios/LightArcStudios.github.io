@@ -6,7 +6,5 @@ comments: false
 ---
 
 Light Arc Studio Ltd are a small band of indies developers, artists, and likeminded folk, trying to make some fun things.
- 
-We currently have  exciting projects in the pipeline - [Castle Battles]({{ site.url }}/castle-battles) and [Mission Adventure](http://www.missionadventureapp.com/)
 
 We can be reached at [presscontact@lightarcstudio.com](mailto:presscontact@lightarcstudio.com)
