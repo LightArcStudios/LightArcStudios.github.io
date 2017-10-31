@@ -21,8 +21,6 @@ comments: false
   </strong>
 </p>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
 <p style="text-align: center;">
   <strong>
     <a href="https://eatenbynostalgia.bandcamp.com/" target="_blank">Listen to Clamor's Theme!</a>
