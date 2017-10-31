@@ -15,21 +15,16 @@ comments: false
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enter The Great Tapestry: Once a candy-colored realm of dreams and fantasy, now a corrupted death-scape of perilous ruin. Will you gaze into the void to learn the fate of this tattered land? Be weary, traveller...
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IT STARES BACK
-
-![gameplay image]({{ site.url }}/assets/img/gameplay-1.jpg)  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
-
-![album art]({{ site.url }}/assets/img/album-cover.jpg)  
-
 <p style="text-align: center;">
   <strong>
-    <a href="http://store.steampowered.com/app/568370/" target="_blank">May your moustache guide you to victory!</a>
+    <a href="https://www.youtube.com/watch?v=7n5pwaqvBX4&t=" target="_blank">IT STARES BACK</a>
   </strong>
 </p>
 
-<p style="text-align: center;">
-  Don't Have a Moustache? <strong><a href="../assets/img/the-blue-moustache-of-leadership.pdf">Have one on us!</a></strong>
-</p>
+![gameplay image]({{ site.url }}/assets/img/Landscape1.jpg)  
 
+<p style="text-align: center;">
+  <strong>
+    <a href="https://eatenbynostalgia.bandcamp.com/" target="_blank">Listen to Clamor's Theme!</a>
+  </strong>
+</p>
