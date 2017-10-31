@@ -23,6 +23,13 @@ comments: false
 
 <p style="text-align: center;">
   <strong>
+    <a href="https://www.twitch.tv/1ronprism" target="_blank">Live Digital Painting</a>
+  </strong>
+</p>
+
+
+<p style="text-align: center;">
+  <strong>
     <a href="https://eatenbynostalgia.bandcamp.com/" target="_blank">Listen to Clamor's Theme!</a>
   </strong>
 </p>
