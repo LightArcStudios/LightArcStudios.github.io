@@ -21,7 +21,7 @@ comments: false
   </strong>
 </p>
 
-![gameplay image]({{ site.url }}/assets/img/Landscape1.jpg)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 <p style="text-align: center;">
   <strong>
