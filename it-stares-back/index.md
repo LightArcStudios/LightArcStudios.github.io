@@ -9,7 +9,7 @@ comments: false
 <!-- Hey Cleve! You should only need to change this file. Have fun! 😄 -->
 
 
-![banner art](https://i.imgur.com/p9jrauc.jpg)  
+![banner art]({{ site.url }}/assets/img/gameplay-1.jpg)  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Weave your fate into The Great Tapestry! **Light Arc Studio**, a developer and publisher of interactive entertainment, today announced that their fast-paced action strategy RPG, Castle Battles is scheduled for release on the Apple App Store and Google Play for iOS and Android devices in spring 2017.
 
