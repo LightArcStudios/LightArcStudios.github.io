@@ -21,13 +21,13 @@ comments: false
 
 <p style="text-align: center;">
   <strong>
-    <a href="http://store.steampowered.com/app/568370/" target="_blank">GOOGLE PLAY STORE</a>
+    <a href="https://play.google.com/store/apps/details?id=com.lightarc.castle&hl=en_US" target="_blank">GOOGLE PLAY STORE</a>
   </strong>
 </p>
 
 <p style="text-align: center;">
   <strong>
-    <a href="http://store.steampowered.com/app/568370/" target="_blank">APPLE APP STORE</a>
+    <a href="https://itunes.apple.com/us/app/castle-battles-fast-rts/id1210311968?mt=8" target="_blank">APPLE APP STORE</a>
   </strong>
 </p>
 
