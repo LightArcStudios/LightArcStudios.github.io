@@ -70,7 +70,7 @@ h3.title a {
 blockquote {
 	font-family:$alt-font;
 	font-style:italic;
-	border-left:8px solid $color_tundora;
+	border-left:8px solid $white;
 	padding-left:20px;
 	margin: 0;
 }
@@ -116,8 +116,8 @@ li code,
 p pre,
 li pre {
     @include font(14);
-    background-color: $color_gray;
-    border: 1px solid $color_mischka;
+    background-color: $white;
+    border: 1px solid $white;
     @include rounded(4px);
     margin: 0 2px;
     padding: 0 5px;
