@@ -21,9 +21,13 @@ THE CORE TEAM
   </strong>
 </p>
 
-**S. W.**
+<p style="text-align: center;">
+  <strong>
+    **S. W.**
+  </strong>
+</p>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phantom captain aboard the gaming vessel Light Arc. Who is this mysterious master of all things code? Stay tuned to find out.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phantom captain aboard the gaming vessel Light Arc. Who is this mysterious master of all things code? Stay tuned to find out more.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
