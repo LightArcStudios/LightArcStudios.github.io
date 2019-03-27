@@ -78,7 +78,7 @@ body {
 	padding-left: 15px;
 	@include center-block();
 	background-color: rgba(0,0,0,.50);
-	color: $color_shark;
+	color: $white;
 	z-index: 1;
   border: 3px solid $white;
 	border-radius: 3px;
@@ -151,7 +151,7 @@ body {
 	}
 	.tag {
 	    display: inline-block;
-        border: 1px solid;
+        border: 3px solid;
         border-color: rgba($color_mercury,0.5) rgba($color_bon_jour,0.5) $color_mischka;
         @include rounded(3px);
         text-decoration: none;
