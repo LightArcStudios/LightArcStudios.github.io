@@ -77,12 +77,12 @@ body {
 	padding-right: 15px;
 	padding-left: 15px;
 	@include center-block();
-	background-color: rgba(255,255,255,.35);
+	background-color: rgba(0,0,0,.35);
 	color: $color_shark;
 	z-index: 1;
-  border: 3px solid $color_tundora;
+  border: 3px solid $white;
 	border-radius: 3px;
-	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
+	box-shadow: 0 0 10px 0 rgba($white,0.3);
 	@include transition(.5s);
 	@media #{$small} {
 		width: 100%;
@@ -107,12 +107,12 @@ body {
 	width: 75%;
 	max-width: 1200px;
 	margin: 4rem auto;
-	background: rgba(255,255,255,.35);
-	color: $color_tuatara;
+	background: rgba(0,0,0,.35);
+	color: $white;
 	padding: 2em;
-  border: 3px solid $color_tundora;
+  border: 3px solid $white;
 	border-radius: 3px;
-	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
+	box-shadow: 0 0 10px 0 rgba($white,0.3);
 	@include transition(.5s);
 	@media #{$small} {
 		width: 90%;
@@ -140,10 +140,10 @@ body {
 .entry-meta {
 	@include font-rem(12);
 	text-transform: uppercase;
-	color: lighten($color_tuatara,60);
+	color: lighten($white,60);
 	padding-left: 0;
 	a {
-		color: lighten($color_tuatara,60);
+		color: lighten($white,60);
 	}
 	li {
 	    list-style-type: none;
@@ -155,8 +155,8 @@ body {
         border-color: rgba($color_mercury,0.5) rgba($color_bon_jour,0.5) $color_mischka;
         @include rounded(3px);
         text-decoration: none;
-        background-color: $white;
-        color: $color_tuatara;
+        background-color: $color_shark;
+        color: $white;
         @include transition(.75s);
         margin: 2px 5px;
 		span {
