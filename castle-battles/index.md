@@ -9,16 +9,11 @@ comments: false
 
 <p style="text-align: center;">
   <strong>
-    <a>**Weave your fate into The Great Tapestry!**</a>
-  </strong>
-</p>
-<p style="text-align: center;">
-  <strong>
     <a>NOW AVAILABLE ON...</a>
   </strong>
 </p>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 <p style="text-align: center;">
   <strong>
@@ -40,7 +35,7 @@ comments: false
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**<a href="http://store.steampowered.com/app/568370/" target="_blank">Castle Battles</a>** streamlines the mechanics of classic, top-down strategy RPGs to create a fast-paced style of gameplay like no other. Expand your empire by building castles near bountiful resources, collect precious gold to amass outlandish armies, and then swarm your enemies across 40 unique levels!
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Weave your fate into The Great Tapestry!** CASTLE BATTLES streamlines the mechanics of classic, top-down strategy RPGs to create a fast-paced style of gameplay like no other. Expand your empire by building castles near bountiful resources, collect precious gold to amass outlandish armies, and then swarm your enemies across 40 unique levels!
 
 ![gameplay image]({{ site.url }}/assets/img/gameplay-1.jpg)  
 
