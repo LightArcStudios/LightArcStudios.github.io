@@ -13,8 +13,6 @@ comments: false
   </strong>
 </p>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
 <p style="text-align: center;">
   <strong>
     <a href="http://store.steampowered.com/app/568370/" target="_blank">STEAM</a>
