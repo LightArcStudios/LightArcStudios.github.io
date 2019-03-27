@@ -53,7 +53,7 @@ h3.title a {
 		a {
 			@include font-rem(20);
 			text-decoration: none;
-			color: $color_shark;
+			color: $white;
 			font-weight: bolder;
             &:hover {
                 color: $red;
@@ -90,12 +90,12 @@ figcaption {
 // links
 a {
   transition: color .4s;
-  color: $color_shark;
+  color: $white;
   &:link {
-  	color: $color_shark;
+  	color: $white;
   }
   &:visited {
-  	color: $color_shark;
+  	color: $white;
   }
   &:hover {
   	color: $red;
