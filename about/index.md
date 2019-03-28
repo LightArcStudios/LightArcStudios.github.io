@@ -21,9 +21,9 @@ THE CORE TEAM
   </strong>
 </p>
 
-S.W.
+Steven Walker
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phantom captain aboard the gaming vessel Light Arc. Who is this mysterious master of all things code? Stay tuned to find out more.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Our Fearless Leader has 20 years experience in the games industry working on projects from mobile to AAA. He is currently working as a contractor to the AAA games industry, running Light Arc Studio, and spending time with his wonderful family. Steve started Light Arc as a means to share his love of games with his children.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
