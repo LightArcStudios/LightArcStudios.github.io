@@ -12,6 +12,6 @@ comments: false
 
 <p style="text-align: center;">
   <strong>
-    <a href="{{{ site.url }}}/assets/downloads/isb-prologue-download.zip" target="_blank">DOWNLOAD THE PROLOGUE</a>
+    <a href="{{{ site.url }}}/assets/downloads/isb-prologue-download.zip" download>DOWNLOAD THE PROLOGUE</a>
   </strong>
 </p>
