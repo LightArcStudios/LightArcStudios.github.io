@@ -12,6 +12,6 @@ comments: false
 
 <p style="text-align: center;">
   <strong>
-    <a href="{{ site.url }}/assets/downloads/isb-prologue-download.zip" download="It Stares Back Prologue.zip">DOWNLOAD THE PROLOGUE (1.5 GB)</a>
+    <a href="{{ site.url }}/assets/downloads/isb-prologue-download.zip" download="https://www.dropbox.com/s/xkd3443si47jom5/isb-prologue-download.zip?dl=1">DOWNLOAD THE PROLOGUE (1.5 GB)</a>
   </strong>
 </p>
