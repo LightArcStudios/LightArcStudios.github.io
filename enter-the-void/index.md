@@ -1,6 +1,6 @@
 ---
 layout: it-stares-back
-title: It Stares Back
+title: Enter The Void
 date: 2019-04-11
 comments: false
 ---
