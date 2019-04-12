@@ -33,6 +33,12 @@ comments: false
 
 <p style="text-align: center;">
   <strong>
+    <a href="{{ site.url }}/assets/download/it-stares-back-press-kit.zip" download="It Stares Back Press Kit.zip">DOWNLOAD THE PRESS PACKAGE</a>
+  </strong>
+</p>
+
+<p style="text-align: center;">
+  <strong>
     <a href="https://www.artstation.com/ironprism" target="_blank">SUPPORT THE ART</a>
   </strong>
 </p>
