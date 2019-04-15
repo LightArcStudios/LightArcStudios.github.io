@@ -12,6 +12,6 @@ comments: false
 
 <p style="text-align: center;">
   <strong>
-    <a href="https://www.dropbox.com/s/xkd3443si47jom5/isb-prologue-download.zip?dl=1" download="It Stares Back Prologue.zip">DOWNLOAD THE PROLOGUE (1.5 GB)</a>
+    <a href="https://www.dropbox.com/s/90lcoyreaqe4545/ISB%20PROLOGUE%20ALPHA%20PC%201.2.zip?dl=1" download="ISB PROLOGUE ALPHA PC 1.2.zip">DOWNLOAD THE PROLOGUE ON PC (1.5 GB)</a>
   </strong>
 </p>
