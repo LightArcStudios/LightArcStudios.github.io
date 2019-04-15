@@ -33,7 +33,7 @@ comments: false
 
 <p style="text-align: center;">
   <strong>
-    <a href="{{ site.url }}/assets/download/it-stares-back-press-kit.zip" download="It Stares Back Press Kit.zip">DOWNLOAD THE PRESS PACKAGE</a>
+    <a href="{{ site.url }}/assets/downloads/it-stares-back-press-kit.zip" download="It Stares Back Press Kit.zip">DOWNLOAD THE PRESS PACKAGE</a>
   </strong>
 </p>
 
