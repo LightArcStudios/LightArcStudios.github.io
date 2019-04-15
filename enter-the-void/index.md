@@ -12,6 +12,6 @@ comments: false
 
 <p style="text-align: center;">
   <strong>
-    <a href="https://www.dropbox.com/s/90lcoyreaqe4545/ISB%20PROLOGUE%20ALPHA%20PC%201.2.zip?dl=1" download="ISB PROLOGUE ALPHA PC 1.2.zip">DOWNLOAD THE PROLOGUE ON PC (1.5 GB)</a>
+    <a href="https://www.dropbox.com/s/90lcoyreaqe4545/ISB%20PROLOGUE%20ALPHA%20PC%201.2.zip?dl=1" download="ISB PROLOGUE ALPHA PC 1.2.zip">DOWNLOAD THE PROLOGUE ON PC (Alpha 1.2) (1.5 GB)</a>
   </strong>
 </p>
