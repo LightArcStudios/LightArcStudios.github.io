@@ -13,7 +13,7 @@ comments: false
 
 <p style="text-align: center;">
   <strong>
-    <a href="https://www.youtube.com/watch?v=7n5pwaqvBX4&t=" target="_blank">WATCH THE TEASER TRAILER</a>
+    <a href="https://www.youtube.com/watch?v=JSmioG9pdpU" target="_blank">WATCH THE TRAILER</a>
   </strong>
 </p>
 
