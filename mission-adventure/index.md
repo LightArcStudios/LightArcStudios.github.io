@@ -1,5 +1,5 @@
 ---
-layout: mission-adventure
+layout: castle-battles
 title: Mission-Adventure
 date: 2019-5-20
 comments: false
