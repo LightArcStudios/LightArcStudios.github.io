@@ -13,7 +13,7 @@ comments: false
 
 <p style="text-align: center;">
   <strong>
-    <a href="https://store.steampowered.com/app/1094250/It_Stares_Back/"_blank">IT STARES BACK ON STEAM</a>
+    <a href="https://store.steampowered.com/app/1094250/It_Stares_Back/" target="_blank">IT STARES BACK ON STEAM</a>
   </strong>
 </p>
 
