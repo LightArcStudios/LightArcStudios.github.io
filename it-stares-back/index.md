@@ -13,11 +13,19 @@ comments: false
 
 <p style="text-align: center;">
   <strong>
-    <a href="https://www.youtube.com/watch?v=JSmioG9pdpU" target="_blank">WATCH THE TRAILER</a>
+    <a href="https://store.steampowered.com/app/1094250/It_Stares_Back/"_blank">IT STARES BACK ON STEAM</a>
   </strong>
 </p>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enter The Great Tapestry: Once a candy-colored realm of dreams and fantasy, now a corrupted death-scape of perilous ruin. Will you gaze into the void to learn the fate of this tattered land? Be weary, traveller...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<p style="text-align: center;">
+  <strong>
+    <a href="https://www.youtube.com/watch?v=JSmioG9pdpU" target="_blank">WATCH THE TRAILER</a>
+  </strong>
+</p>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -36,6 +44,8 @@ comments: false
     <a href="{{ site.url }}/assets/downloads/it-stares-back-press-kit.zip" download="It Stares Back Press Kit.zip">DOWNLOAD THE PRESS PACKAGE</a>
   </strong>
 </p>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 <p style="text-align: center;">
   <strong>
