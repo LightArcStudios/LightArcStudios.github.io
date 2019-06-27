@@ -17,15 +17,17 @@ comments: false
   </strong>
 </p>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enter The Great Tapestry: Once a candy-colored realm of dreams and fantasy, now a corrupted death-scape of perilous ruin. Will you gaze into the void to learn the fate of this tattered land? Be wary, traveller...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enter The Great Tapestry: Once a land of candy-colored dreams, now a tattered realm of perilous ruin. This dark-fantasy RTS weaves RPG mechanics into a hand painted, lore-rich story. Will you gaze into the void? Be wary, traveler...
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 <p style="text-align: center;">
   <strong>
-    <a href="https://www.youtube.com/watch?v=JSmioG9pdpU" target="_blank">WITNESS THE TRAILER</a>
+    <a href="https://www.dropbox.com/s/kdmikcbsfu820tq/IT%20STARES%20BACK%20LAUNCH%20PRESSKIT.zip?dl=1" download="IT STARES BACK LAUNCH PRESSKIT.zip">OBTAIN THE PRESS KIT</a>
   </strong>
 </p>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Everything you need to help spread the news of our nightmare.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -35,17 +37,7 @@ comments: false
   </strong>
 </p>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome to the Great Tapestry. The four Kingdoms of Chaos sprawl around thee. ‘Tis time to declare thy allegiance.  In order to join the ranks of thy preferred legion, simply declare thy allegiance. Who shall amass the mightiest horde?
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-<a href="https://www.dropbox.com/s/kdmikcbsfu820tq/IT%20STARES%20BACK%20LAUNCH%20PRESSKIT.zip?dl=1" download="IT STARES BACK LAUNCH PRESSKIT.zip">OBTAIN THE PRESS KIT</a>
-
-<p style="text-align: center;">
-  <strong>
-    <a href="https://www.dropbox.com/s/kdmikcbsfu820tq/IT%20STARES%20BACK%20LAUNCH%20PRESSKIT.zip?dl=1" download="IT STARES BACK LAUNCH PRESSKIT.zip">OBTAIN THE PRESS KIT</a>
-  </strong>
-</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lo, the four Kingdoms of Chaos sprawl around thee. ‘Tis time to declare thy allegiance.  In order to join the ranks of thy preferred legion, simply declare thy allegiance. Who shall amass the mightiest horde?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
