@@ -13,17 +13,17 @@ comments: false
 
 <p style="text-align: center;">
   <strong>
-    <a href="https://store.steampowered.com/app/1094250/It_Stares_Back/" target="_blank">IT STARES BACK ON STEAM</a>
+    <a href="https://store.steampowered.com/app/1094250/It_Stares_Back/" target="_blank">SEIZE IT STARES BACK ON STEAM</a>
   </strong>
 </p>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enter The Great Tapestry: Once a candy-colored realm of dreams and fantasy, now a corrupted death-scape of perilous ruin. Will you gaze into the void to learn the fate of this tattered land? Be weary, traveller...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enter The Great Tapestry: Once a candy-colored realm of dreams and fantasy, now a corrupted death-scape of perilous ruin. Will you gaze into the void to learn the fate of this tattered land? Be wary, traveller...
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 <p style="text-align: center;">
   <strong>
-    <a href="https://www.youtube.com/watch?v=JSmioG9pdpU" target="_blank">WATCH THE TRAILER</a>
+    <a href="https://www.youtube.com/watch?v=JSmioG9pdpU" target="_blank">WITNESS THE TRAILER</a>
   </strong>
 </p>
 
@@ -35,7 +35,7 @@ comments: false
   </strong>
 </p>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IT STARES BACK PROLOGUE is now in Alpha Testing! Follow us on social media and join our discord to learn more.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome to the Great Tapestry. The four Kingdoms of Chaos sprawl around thee. ‘Tis time to declare thy allegiance.  In order to join the ranks of thy preferred legion, simply declare thy allegiance. Who shall amass the mightiest horde?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
