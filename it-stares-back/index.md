@@ -39,6 +39,8 @@ comments: false
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
+<a href="https://www.dropbox.com/s/kdmikcbsfu820tq/IT%20STARES%20BACK%20LAUNCH%20PRESSKIT.zip?dl=1" download="IT STARES BACK LAUNCH PRESSKIT.zip">OBTAIN THE PRESS KIT</a>
+
 <p style="text-align: center;">
   <strong>
     <a href="{{ site.url }}/assets/downloads/it-stares-back-press-kit.zip" download="It Stares Back Press Kit.zip">DOWNLOAD THE PRESS PACKAGE</a>
