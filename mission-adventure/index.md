@@ -9,7 +9,15 @@ comments: false
 
 <p style="text-align: center;">
   <strong>
-    <a href="https://www.kickstarter.com/projects/633285113/mission-adventure?ref=nav_search&result=project&term=mission%20adventure" target="_blank">SUPPORT OUR KICKSTARTER</a>
+    <a href="https://www.youtube.com/watch?v=QZVjcQCT6i0" target="_blank">WATCH THE TRAILER</a>
+  </strong>
+</p>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<p style="text-align: center;">
+  <strong>
+    <a href="https://play.google.com/store/apps/details?id=com.lightarc.gps" target="_blank">GET MISSION ADVENTURE ON GOOGLE PLAY STORE</a>
   </strong>
 </p>
 
@@ -25,4 +33,4 @@ comments: false
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Where are we now?** We have 3 packs just about ready to go: "Pirate Adventure," "Alien Adventure," and "Guinea Pig Adventure"! The plan is to have 2 more packs ready by August. Current front runners being "Spy Adventure" and "Fairy-tale Adventure."  Presuming there is demand, we hope to regularly update the app with further Adventures over the next year. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Your Mission!** Support our Kickstarter! A little community investment at this point would allow us to; give our app the polish it deserves in time for a summer launch, put in some full time coding effort ,and pay our studio artist to make it nice and shiny. That’s all it will take to get us from "fun side project" to "real app store contender". 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Your Mission!** HAVE FUN PLAYING! 
