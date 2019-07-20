@@ -32,7 +32,7 @@ comments: false
   </strong>
 </p>
 
-&nbsp;BUILD YOUR OWN MAP! We might even put one in the pack if it’s fun!
+&nbsp;BUILD YOUR OWN MAP! We might even put one in a community map pack if it’s fun!
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
