@@ -18,7 +18,7 @@ comments: false
 
 <p style="text-align: center;">
   <strong>
-    <a href="https://www.dropbox.com/s/65gmhnv3c9bgtnq/ISB%20Map%20Templates%201.0.zip?dl=1" target="_blank">DOWNLOAD THE MAP TEMPLATES FOLDER: VERSION 1.0</a>
+    <a href="https://www.dropbox.com/s/hc1htn46q4p92eo/ISB%20Map%20Templates%201.1.zip?dl=1" target="_blank">DOWNLOAD THE MAP TEMPLATES FOLDER: VERSION 1.1</a>
   </strong>
 </p>
 
