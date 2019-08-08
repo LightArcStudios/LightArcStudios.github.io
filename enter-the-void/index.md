@@ -264,11 +264,11 @@ comments: false
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"seaSet" : 1,
 
-&nbsp;See “hexSext”
+&nbsp;See “hexSet”
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"edgeSet" : 1,
 
-&nbsp;Also see “hexSext”
+&nbsp;Also see “hexSet”
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"numBosses" : 0,
 
