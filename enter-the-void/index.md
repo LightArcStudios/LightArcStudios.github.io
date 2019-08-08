@@ -294,7 +294,7 @@ comments: false
 
 <p style="text-align: center;">
   <strong>
-    <a>-Global Events-</a>
+    <a>-GLOBAL EVENTS-</a>
   </strong>
 </p>
 
@@ -453,7 +453,7 @@ The following parameters are unavailiable in the editor, but I figured I'd list 
 
 <p style="text-align: center;">
   <strong>
-    <a>-EVENTS CONFIGURATION-</a>
+    <a>-HEX BASED EVENTS-</a>
   </strong>
 </p>
 
@@ -532,6 +532,8 @@ What actually happens when the event is set off. What event do? It do that. This
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Claimed:2 (activate event if hex is claimed by Avaricious)
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
 <p style="text-align: center;">
   <strong>
     <a>AVAILABLE HEX PARAMETERS:</a>
@@ -566,4 +568,4 @@ What actually happens when the event is set off. What event do? It do that. This
   </strong>
 </p>
 
-&nbsp;We already have more triggers and parameters to play with that need to be formatted in. Will announce in the Discord when more become availiable.
+&nbsp;We already have more triggers and parameters to play with that need to be formatted in. Will announce in the Discord when more become availiable and when this page has been updated.
