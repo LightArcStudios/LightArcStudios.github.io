@@ -228,65 +228,342 @@ comments: false
 
 <p style="text-align: center;">
   <strong>
-    <a>LEVEL CONFIGURATION</a>
+    <a>-LEVEL CONFIGURATION-</a>
   </strong>
 </p>
 
 &nbsp;Some basic, overarching parameters for the level: mostly AI personality variants and visuals.
 
-&nbsp;"startDyePlayer" : 0,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-&nbsp;"startStonePlayer" : 0,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"startDyePlayer" : 0,
 
-&nbsp;"startGoldComputer" : 0,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"startStonePlayer" : 0,
 
-&nbsp;"startStoneComputer" : 0,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"startGoldComputer" : 0,
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"startStoneComputer" : 0,
 
 &nbsp;Gives X amount of resource at level start. Computer is all enemy A.I. so if Fathoms and Celestium are both on the map, they both start out with X. Not commonly useful to us, except for certain circumstances like giving near unlimited stone in the demo. Usually best to apply as in-game hexes instead. Otherwise confusing unless commented on in-game.
 
-&nbsp;"AIDifficulty" : 2,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"AIDifficulty" : 2,
 
 &nbsp;Decides which config file to use for all AI. The config files for each god, for each level of difficulty can be found in Assets\Resources\Config
 
-&nbsp;"adjustAnger" : 1.0,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"adjustAnger" : 1.0,
 
 &nbsp;Enemies will tend to only attack players they are angry with. They get angry when you attack them. With adjustAnger up you are setting them to START angry. This is old code. System will be getting adjusted in future.
 
-&nbsp;"extremeMult" : 2.0,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"extremeMult" : 2.0,
 
 &nbsp;Not used in Stares at the moment. In “extreme mode” in castle battles, how much harder does everything get (multiplies spawn rates etc).
 
-&nbsp;"hexSet" : 1,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"hexSet" : 1,
 
 &nbsp;I don’t believe this is currently functioning for variants. Should determine type of art sheet used. Will need be cleaned up later. Will be working to determine which HexSetup_ to use. But there is now other stuff that cannot be configured so doesn't give control over whole map look.
 
-&nbsp;"seaSet" : 1,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"seaSet" : 1,
 
 &nbsp;See “hexSext”
 
-&nbsp;"edgeSet" : 1,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"edgeSet" : 1,
 
 &nbsp;Also see “hexSext”
 
-&nbsp;"numBosses" : 0,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"numBosses" : 0,
 
 &nbsp;How many bosses in the level. None currently available. Specific stats in Boss Configuration files as we make them available. As we add bosses for you to play with, we’ll give you the listings below.
 
-&nbsp;"fadeImage" : 4,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"fadeImage" : 4,
 
 &nbsp;Ditto about the sets. This is for overlay hexes like territorial land.
 
-&nbsp;"tree1" : 0,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"tree1" : 0,
 
-&nbsp;"tree1" : 1,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"tree1" : 1,
 
-&nbsp;"tree1" : 2,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"tree1" : 2,
 
-&nbsp;"tree1" : 3,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"tree1" : 3,
 
 &nbsp;Which trees are randomly pulled for natural land. 0-3 Standard, 4-7 Fathoms, 8-11 Avaricious, 12-15 Celestium, 16-19 Neon Desert, and 20-23 Lost.
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
+<p style="text-align: center;">
+  <strong>
+    <a>-Global Events-</a>
+  </strong>
+</p>
 
+&nbsp;These are level events that are not tied to event hexes, but have other triggering parameters. Best used for win/lose conditions, but have many additional uses. Found in GlobalEventsConfig.txt
 
+&nbsp;Below is a simple event as an example:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"id" : 0,
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"triggers" : "Delay:8.0",
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"parameters" : "Speech:SpeechZero"
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;ID:
+This is simply the global event number. So the next event would be ["id" : 1,] and the next would be ["id" : 2,]. THESE ARE NOT tied to events listed in the event configuration file. So Global Event 1 has nothing to do with Hex Event 1.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;TRIGGERS:
+What queues the event. In this case it's on a timer from level start. This event will activate after 8 seconds. Available Triggers listed below. There’s a whole bunch to choose from and we’re adding new ones all the time!
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;PARAMETERS:
+What actually happens when the event is set off. What event do? It do that.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;Many global triggers/parameters may also work for standard event triggers/parameters and visa versa. This list is already massive, so I’m not going to add stuff in twice, but you’re smart. You can probably figure out which ones carry over.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<p style="text-align: center;">
+  <strong>
+    <a>AVAILABLE GLOBAL TRIGGERS:</a>
+  </strong>
+</p>
+
+&nbsp;Delay
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Queues in x seconds (8 seconds in the example). 0.0 if you want it to queue immediately.
+
+&nbsp;Guide Lost
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-If the guide is slain, x parameter happens
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: GuideLost:1 (What is the 1 about? - activates when they have been slain this many times or above. Not that usefull but a quirk of the system is each parameter must define SOMETHING )
+
+&nbsp;Number of Ruins claimed by player
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: PlayerRuins:3 (activates when any three ruins have been claimed by the player)
+
+&nbsp;Number of Castles claimed by player
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: PlayerCastles:4 (activates when any four castles have been claimed by the player)
+
+&nbsp;Number of Enemy Castles remaining
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-This is useful for Classic win condition OR could also be used halfway through a battle to increase the stakes and reduce snowball.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: EnemyCastles:0 (activates when enemy has no castles left)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<p style="text-align: center;">
+  <strong>
+    <a>AVAILABLE GLOBAL PARAMETERS:</a>
+  </strong>
+</p>
+
+&nbsp;Repeat Event
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Allows an event to fire more than once
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: Repeat:2 (repeat twice). Repeat:0 (repeat infinite) 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Only GuideKilled and PlayerRuins, PlayerCastles,EnemyCastles repeat properly
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: 	Every time the Guide is lost, spawn a new guide	
+"triggers" : "GuideLost:1",
+		"parameters" : "Guide:Spawn,Repeat:0”
+
+&nbsp;Guide Conditions
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Spawn a new Guide
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: [Guide:Spawn,] See Above.
+
+&nbsp;Speech
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-An ingame dialogue sequence is queued. Currently this can be a standard speech, or a win scene speech. See “Speech” for more info.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: Speech:SpeechZero 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: Speech:WinScene
+
+&nbsp;Popup
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Queues a popup on the screen. Will have more in future for, bosses, etc.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-EX: Popup:Won (the “Sector Restored” image appears)
+
+&nbsp;Won
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Level is won. What's not to understand?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Delay the win timer EX:Won:5.0,Speech:WinScene,Popup:Won (popup won’t appear for 5 seconds, winscene happens straight away.)
+
+&nbsp;Lost
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-It's the opposite of winning.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex:Lost:1.0 (delay lost timer by 1 second)
+
+&nbsp;Music
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Queues a popup on the screen. Will want more for rites, bosses, etc.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-EX: Popup:Won (the “Battle Won” image appears)
+
+&nbsp;FadeTime
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Queues a popup on the screen. Will want more for rites, bosses, etc.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-EX: Popup:Won (the “Battle Won” image appears)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+The following parameters are unavailiable in the editor, but I figured I'd list em anyway.
+
+&nbsp;Volume
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Sets the volume level of the audio track in a percentile
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex:  Volume:0.8 (set volume at 80% of max volume)
+
+&nbsp;Change Volume
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex:ChangeVolume:5.0,Volume:0.1 (changes previously stated volume to 10% max volume over 5 seconds)
+
+&nbsp;Audio
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Sets the audio levels of a specific voice line
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: Audio:SpeechEleven/1_The Inductor1,Volume:1.0 (set the volume in the Inductor’s first line in speech eleven to max volume)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<p style="text-align: center;">
+  <strong>
+    <a>-EVENTS CONFIGURATION-</a>
+  </strong>
+</p>
+
+&nbsp;Events attached to event hexes placed on the map. Found in EventsConfig.txt
+
+&nbsp;Below is a simple hex based event as an example:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"id" : 1,
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"triggers" : "RevealBuild:0.1",
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"parameters" : "Camera:0.5,Speech:SpeechOne,MaxTriggerTimes:1"
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;ID:
+This number correlates directly to the event hex associated with it. For instance if the event hex G color (as in RGB) ends in 101, then the hex Id attached is 1. So the complete hex color for ID 5 would be R-255, G-105, B-255.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;TRIGGERS:
+What queues the event. In this case it's when the hex is revealed by a spire or other building. This event will activate after only 10% of the mist covers the hex. Further explained below.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;PARAMETERS:
+What actually happens when the event is set off. What event do? It do that. This one queues up the "SpeechOne" dialogue sequence and it will only play once, no matter how many hex 1's on the map are revealed.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;Many global triggers/parameters may also work for standard event triggers/parameters and visa versa. This list is already massive, so I’m not going to add stuff in twice, but you’re smart. You can probably figure out which ones carry over.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<p style="text-align: center;">
+  <strong>
+    <a>AVAILABLE HEX BASED TRIGGERS:</a>
+  </strong>
+</p>
+
+&nbsp;Reveal in any way
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Hex is revealed by the player by any means.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-The number associated indicates what percentage of fog must be cleared before activation.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: RevealAny:0.1 (activate event if 10% of the mist remains. Hex is mostly revealed.)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: RevealAny:0.5 (activate event if 50% of the mist remains. Hex is halfway revealed.)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ex: RevealAny:0.9 (activate event if 90% of the mist remains. Hex is halfway revealed.)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: RevealAny:1.0 (activate event if 100% of the hex is revealed.)
+
+&nbsp;Reveal via building
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Hex is revealed only when a player structure reveals that part of the fog.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: RevealBuild:0.1 (activate event if structure has revealed 90% of the mist)
+
+&nbsp;Reveal via Noble Guide
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Hex is revealed only when the guide reveals that part of the fog.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: RevealGuide:0.2 (activate event if 20% of the hex is revealed by guide)
+
+&nbsp;Claimed
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Activate when hex is turned to Claimed land by x faction. 1=Fathoms, 2=Avaricious, 3=Celestium, 4=Aggregate, 5=Player
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: Claimed:5 (activate event if hex is claimed by player)before activation.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Claimed:2 (activate event if hex is claimed by Avaricious)
+
+<p style="text-align: center;">
+  <strong>
+    <a>AVAILABLE HEX PARAMETERS:</a>
+  </strong>
+</p>
+
+&nbsp;Camera
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Pull camera to the event and (zooms in x amount - dont think zoom is in).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: Camera:0.5 (Moves the camera to this point - the 0.5 is how long it holds it at the point - might need work).
+
+&nbsp;Spawn Units
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Spawn any type of unit you want. Important to include both troop type and faction
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: Normal:40,Owner:5 (Spawn 40 standard player soldiers)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: Iron:250,Owner:6 (Spawn 250 Iron Clamorings)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: Coal:10,Owner:1 (Spawn 10 Fathom Siege Engines)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: Void:75,Owner:3 (Spawn 75 Celestium Mages)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<p style="text-align: center;">
+  <strong>
+    <a>MORE TO COME</a>
+  </strong>
+</p>
+
+&nbsp;We already have more triggers and parameters to play with that need to be formatted in. Will announce in the Discord when more become availiable.
