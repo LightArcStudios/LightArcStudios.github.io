@@ -209,3 +209,84 @@ comments: false
 &nbsp;01010100 01110010 01100001 01110000 01110000 01100101 01100100 00100000 01001001 00100000 01101101 01100001 01111001 00100000 01111001 01100101 01110100 00100000 01100010 01100101 00101100 00100000 01100010 01110101 01110100 00100000 01101101 01111001 00100000 01100100 01101001 01110011 01100011 01101001 01110000 01101100 01100101 01110011 00100000 01110111 01100001 01101100 01101011 00100000 01110111 01101000 01100101 01110010 01100101 00100000 01001001 00100000 01100011 01100001 01101110 00100000 01101110 01101111 01110100 00101110 00100000 00110011 00101111 00110001 00110010 00101111 00110001 00101111 00110001 00110011 00101111 00110001 00110101 00101111 00110001 00111000
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fair luck, travelers.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<p style="text-align: center;">
+  <strong>
+    <a>THE SPECIFICS</a>
+  </strong>
+</p>
+
+&nbsp;Below is all the info for advanced designers who want to play with the code that we've left open for you to play with! Not at all required to get started, but these features give you some really cool design options.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<p style="text-align: center;">
+  <strong>
+    <a>LEVEL CONFIGURATION</a>
+  </strong>
+</p>
+
+&nbsp;Some basic, overarching parameters for the level: mostly AI personality variants and visuals.
+
+&nbsp;"startDyePlayer" : 0,
+
+&nbsp;"startStonePlayer" : 0,
+
+&nbsp;"startGoldComputer" : 0,
+
+&nbsp;"startStoneComputer" : 0,
+
+&nbsp;Gives X amount of resource at level start. Computer is all enemy A.I. so if Fathoms and Celestium are both on the map, they both start out with X. Not commonly useful to us, except for certain circumstances like giving near unlimited stone in the demo. Usually best to apply as in-game hexes instead. Otherwise confusing unless commented on in-game.
+
+&nbsp;"AIDifficulty" : 2,
+
+&nbsp;Decides which config file to use for all AI. The config files for each god, for each level of difficulty can be found in Assets\Resources\Config
+
+&nbsp;"adjustAnger" : 1.0,
+
+&nbsp;Enemies will tend to only attack players they are angry with. They get angry when you attack them. With adjustAnger up you are setting them to START angry. This is old code. System will be getting adjusted in future.
+
+&nbsp;"extremeMult" : 2.0,
+
+&nbsp;Not used in Stares at the moment. In “extreme mode” in castle battles, how much harder does everything get (multiplies spawn rates etc).
+
+&nbsp;"hexSet" : 1,
+
+&nbsp;I don’t believe this is currently functioning for variants. Should determine type of art sheet used. Will need be cleaned up later. Will be working to determine which HexSetup_ to use. But there is now other stuff that cannot be configured so doesn't give control over whole map look.
+
+&nbsp;"seaSet" : 1,
+
+&nbsp;See “hexSext”
+
+&nbsp;"edgeSet" : 1,
+
+&nbsp;Also see “hexSext”
+
+&nbsp;"numBosses" : 0,
+
+&nbsp;How many bosses in the level. None currently available. Specific stats in Boss Configuration files as we make them available. As we add bosses for you to play with, we’ll give you the listings below.
+
+&nbsp;"fadeImage" : 4,
+
+&nbsp;Ditto about the sets. This is for overlay hexes like territorial land.
+
+&nbsp;"tree1" : 0,
+
+&nbsp;"tree1" : 1,
+
+&nbsp;"tree1" : 2,
+
+&nbsp;"tree1" : 3,
+
+&nbsp;Which trees are randomly pulled for natural land. 0-3 Standard, 4-7 Fathoms, 8-11 Avaricious, 12-15 Celestium, 16-19 Neon Desert, and 20-23 Lost.
+
+
+
+
+
