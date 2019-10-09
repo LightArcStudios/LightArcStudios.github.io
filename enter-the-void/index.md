@@ -248,7 +248,7 @@ comments: false
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"AIDifficulty" : 2,
 
-&nbsp;Decides which config file to use for all AI. The config files for each god, for each level of difficulty can be found in Assets\Resources\Config
+&nbsp;Difficulty ranges from 1-4 from easiest to hardest. Increases aggression and decision making speed.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"adjustAnger" : 1.0,
 
@@ -362,6 +362,22 @@ What actually happens when the event is set off. What event do? It do that.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-This is useful for Classic win condition OR could also be used halfway through a battle to increase the stakes and reduce snowball.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: EnemyCastles:0 (activates when enemy has no castles left)
+
+&nbsp;Empty
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Must be triggered elsewhere, generally via another global or hex based event
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: “” (nothing will set it off on it’s own)
+
+&nbsp;Separate Event trigger
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Is set off by a separate hex based or global event. This way hex based events can set off global events and visa versa. Massive utility.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: RegionEvent:19 (global or hex event is triggered when hex event 19 is triggered)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: GlobalEvent:5 (global or hex event is triggered when global event 5 is triggered)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: RegionEvent:10,Delay:1.0 (triggers one second after hex event 10)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -508,7 +524,7 @@ What actually happens when the event is set off. What event do? It do that. This
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: RevealAny:0.5 (activate event if 50% of the mist remains. Hex is halfway revealed.)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ex: RevealAny:0.9 (activate event if 90% of the mist remains. Hex is halfway revealed.)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ex: RevealAny:0.9 (activate event if 90% of the mist remains. Hex is slightly revealed. Best for enemy ambushes not appearing underfoot.)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: RevealAny:1.0 (activate event if 100% of the hex is revealed.)
 
@@ -557,6 +573,70 @@ What actually happens when the event is set off. What event do? It do that. This
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: Coal:10,Owner:1 (Spawn 10 Fathom Siege Engines)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: Void:75,Owner:3 (Spawn 75 Celestium Mages)
+
+&nbsp;Repeat Event
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Allows an event to fire more than once
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: Repeat:2 (repeat twice). Repeat:0 (repeat infinite) 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: 	Every time the Guide is lost, spawn a new guide
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"triggers" : "GuideLost:1",
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"parameters" : "Guide:Spawn,Repeat:0”
+
+&nbsp;Alter Time
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Manually set the speed. Useful for slowing down ambushes 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: Speed:1 (set to standard speed)
+
+&nbsp;A.I. Fog of War
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Though it is not visible to the player, each faction A.I. uses its own fog of war that acts the same as the player’s. Can be turned off to give a specific faction full view of the map.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: UsesFog:0,FogGod:1 (Fathoms can now see everything)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: UsesFog:1,FogGod:1 (Fathoms cannot outside their fog clearance)? Untested.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: UsesFog:0,FogGod:5 (Player can now see everthing)? Untested.
+
+&nbsp;A.I. Attk range
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Default is the entire map. So just turn off fog of war if you want them to have full range. This provides more specific options. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: AttackRange:0.0,RangeGod:3 (Celestium will not attk at all)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: AttackRange:200.0,RangeGod:2 (Avaricious will attack any structure within 200 hexes)
+
+&nbsp;A.I. Reaction Time
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-A.I. operate on a rotating timer. Every X amount of time they decide to either build, attk, upgrade, or pass. This lets you control how quickly they think.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: ReactionTime:100000.0,ReactionGod:1 (essentially puts the fathoms to sleep)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: ReactionTime:4.0,ReactionGod:3 (celestium operate every 4 seconds)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: ReactionTime:0.0,ReactionGod:1 (Aggregate operate without delay)
+
+&nbsp;Set Structure to be seen
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Set a nearby structure to be "seen" by a particular god or revealed to the player.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: SetSeen:5 (Structure appears to the player. Is revealed out of the fog.)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: SetSeen:1 (Structure is revealed to Fathoms)
+
+&nbsp;Change Owner
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Changes owner of nearest structure. Currently a bit wonky. Might change owner of multiple structures several hexes away. Better to use transition hexes instead.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: ChangeOwner:5 (claim structure for player)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: ChangeOwner:2 (claim structure for Avaricious)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ex: Ex: ChangeOwner:6 (turn off spire)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
