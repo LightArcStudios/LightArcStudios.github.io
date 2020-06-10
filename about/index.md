@@ -17,18 +17,6 @@ THE CORE TEAM
 
 <p style="text-align: center;">
   <strong>
-    <a>COMPANY DIRECTOR / DEVELOPER</a>
-  </strong>
-</p>
-
-Steven Walker
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Our Fearless Leader has 20 years experience in the games industry working on projects from mobile to AAA. He is currently working as a contractor to the AAA games industry, running Light Arc Studio, and spending time with his wonderful family. Steve started Light Arc as a means to share his love of games with his children.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-<p style="text-align: center;">
-  <strong>
     <a>GAME DIRECTOR / ARTIST</a>
   </strong>
 </p>
